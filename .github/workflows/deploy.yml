@@ -4,7 +4,7 @@ name: Deploy Quartz site to GitHub Pages
 on:
   push:
     branches:
-      - main   # 如果你的默认分支不是 main,改成实际分支名
+      - v5
 
 permissions:
   contents: read
