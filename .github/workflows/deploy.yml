@@ -5,6 +5,8 @@ on:
     branches:
       - v5
   workflow_dispatch:
+  repository_dispatch:
+    types: [wiki-updated]
 
 permissions:
   contents: read
